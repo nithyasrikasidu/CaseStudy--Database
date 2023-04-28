@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [OrderId]
+      ,[DoctorId]
+      ,[DrugId]
+      ,[DrugsName]
+      ,[DrugPrice]
+      ,[DrugQuantity]
+      ,[PickupDate]
+      ,[TotalAmount]
+      ,[IsPicked]
+  FROM [PharmacyManagement].[dbo].[OrderDetails]
